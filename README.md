@@ -8,6 +8,10 @@ This repository contains the official PyTorch implementations for the 2022 paper
 - [*Speech Enhancement and Dereverberation with Diffusion-Based Generative Models*](https://arxiv.org/abs/2208.05830), 2022 [2]
 
 Audio examples and further supplementary materials are available [on our project page](https://www.inf.uni-hamburg.de/en/inst/ab/sp/publications/sgmse).
+## 备注
+- 数据必须为16k单声道wav
+- 测试数据路径中必须含有noisy eg: ./test/noisy/1.wav
+- torch 1.13.1可以跑通，colab上面需要更新（或者卸载）torchtext
 
 ## Installation
 
